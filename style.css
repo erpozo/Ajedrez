@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --board-size: 95vh;
+    --index-size: 5%;
+}
+
+.board{
+    margin: 5vh;
+    width: var(--board-size);
+    height: var(--board-size);
+    border: 1px solid black;
+}
+
+.board .upindex{
+    flex: 0 0 auto;
+    width: 12.5%;
+    height: 5%;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.board .square {
+    flex: 0 0 auto;
+    width: 12.5%;
+    height: 12.5%;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color:black;
+    color: white;
+}
